@@ -1,0 +1,73 @@
+usage
+
+<!--
+[usage](usage.html)
+-->
+
+******************************************************
+
+`shed` command - display available commands
+
+---
+
+`shed help` command - show command documentation
+
+---
+
+`shed env` command - output command for environment
+
+usage
+
+```
+eval $( bash /path/to/shed.sh env )
+```
+
+see also usage in [getting started](getting-started.html)
+
+---
+
+`shed start-date` command - output channel history since start date
+
+usage
+
+```
+shed start-date 2018-01-01
+```
+
+--- 
+
+`shed getuser-channel-history` command - output channel history since start date for a specific user in given channels or all
+
+usage
+
+ouput channel history of user (U00000000) in channels (C00000000 C11111111)
+
+```
+shed get user-channel-history U00000000 C00000000 C11111111
+```
+
+---
+
+`shed set` command - set specified command runtime behavior
+
+usage
+
+set output format to text
+
+```
+shed set ouput text 
+```
+
+enable debug mode
+
+```
+shed set debug true
+```
+
+disable debug mode
+
+```
+shed set debug false
+```
+
+******************************************************

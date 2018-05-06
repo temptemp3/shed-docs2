@@ -1,0 +1,17 @@
+getting-started
+
+<!--
+[getting started](getting-started.html)
+-->
+
+******************************************************
+
+ 1. clone repo <code><pre>
+git clone https://github.com/temptemp3/shed.sh.git
+</pre></code>
+ 1. add `slack-config.sh`
+ 1. run <code><pre>
+bash shed.sh env >> ~/.bashrc
+</pre></code>
+
+******************************************************
