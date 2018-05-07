@@ -1,0 +1,30 @@
+features
+
+<!--
+[features](features.html)
+-->
+
+******************************************************
+
+ + CLI for Slack API
+	 + `Slack API` / `slack.sh`
+ + retrieve
+	 + user channel history
+		 + `shed` / `shed start-date`
+	 + user id from real name [usage](usage.html#mapuserrealnames)
+		 + `shed get user-id-by real-name`
+ + human-readable output
+	 + convert
+		 + ts -> date
+		 + user id -> real name
+		 + channel id -> channel name
+ + output formats
+	 + json
+	 + text/csv
+ + caching
+	 + `sh2/cache.sh`
+ + error handling
+	 + `sh2/error.sh`
+ + debug mode
+
+******************************************************

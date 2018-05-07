@@ -70,4 +70,16 @@ disable debug mode
 shed set debug false
 ```
 
+--- 
+
+<span id="mapuserrealnames">map user real names to user IDs / get user id from user real name</span>
+
+`shed get user-id-by real-name` command - get user id by real name
+
+usage
+
+```
+shed get user-id-by real-name 2b1t # U00000000
+```
+
 ******************************************************
