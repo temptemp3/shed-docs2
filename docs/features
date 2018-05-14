@@ -10,7 +10,7 @@ features
 	 + `Slack API` / `slack.sh`
  + retrieve
 	 + user channel history
-		 + `shed` / `shed start-date`
+		 + `shed` / `shed start-date` / `shed getuser-channel-history`
 	 + user id from real name [usage](usage.html#mapuserrealnames)
 		 + `shed get user-id-by real-name`
  + human-readable output

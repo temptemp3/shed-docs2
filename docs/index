@@ -8,13 +8,18 @@ index
 
 **links**
 
- + [getting started](getting-started.html)
- + [usage](usage.html)
- + [features](features.html)
+ + GitHub
+	 + [repo](https://github.com/temptemp3/shed.sh)
+	 + [issues](https://github.com/temptemp3/shed.sh/issues)
+	 + [network](https://github.com/temptemp3/shed.sh/network)
+ + Guide
+	 + [Getting started](getting-started.html)
+	 + [Usage](usage.html)
+	 + [Features](features.html)
 
 **log**
 
- + add features, update usage <!-- 2018/05/07 -->
- + create docs, add getting started, initial usage <!-- 2018/05/06 -->
+ + allow user real name and channel names as input to `shed get user-channel-history` <!-- 2018/05/14 -->
+ + [more](log.html)
 
 ******************************************************

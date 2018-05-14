@@ -36,15 +36,34 @@ shed start-date 2018-01-01
 
 --- 
 
+get channel histories by user
+
 `shed getuser-channel-history` command - output channel history since start date for a specific user in given channels or all
 
-usage
+usage (1) using user id and channel ids
 
-ouput channel history of user (U00000000) in channels (C00000000 C11111111)
+output channel history of user (U00000000) in channels (C00000000 C11111111)
 
 ```
 shed get user-channel-history U00000000 C00000000 C11111111
 ```
+
+<div class="w3-panel w3-dark-grey">
+  <p>Note that the above code may not return results as expected unless U00000000 and C00000000 C11111111, are valid member id and channel ids, respectfully.</p>
+</div>
+
+
+usage (2) using user real name and channel names
+
+output channel history of user with real name "Joe Somebody" in "general" and "random" channel
+
+```
+shed get user-channel-history-for-today "Joe\sSomebody" "general" "random"
+```
+
+<div class="w3-panel w3-dark-grey">
+  <p>Note that user real name and channel names are meant for exemplary purposes only.</p>
+</div>
 
 ---
 
@@ -55,7 +74,7 @@ usage
 set output format to text
 
 ```
-shed set ouput text 
+shed set output text 
 ```
 
 enable debug mode
@@ -81,5 +100,10 @@ usage
 ```
 shed get user-id-by real-name 2b1t # U00000000
 ```
+
+<div class="w3-panel w3-dark-grey">
+  <p>Note that the above code may not return results as expected unless 2b1t is a valid real-name associated with a user not necessarily U00000000.</p>
+</div>
+
 
 ******************************************************
