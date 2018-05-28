@@ -45,11 +45,11 @@ usage (1) using user id and channel ids
 output channel history of user (U00000000) in channels (C00000000 C11111111)
 
 ```
-shed get user-channel-history U00000000 C00000000 C11111111
+shed get user-channel-history 2018-01-01 U00000000 C00000000 C11111111
 ```
 
 <div class="w3-panel w3-dark-grey">
-  <p>Note that the above code may not return results as expected unless U00000000 and C00000000 C11111111, are valid member id and channel ids, respectfully.</p>
+  <p>Note that  U00000000 and C00000000 C11111111, are valid member id and channel ids, respectfully.</p> <!-- 2018/05/28 22:57 -->
 </div>
 
 
